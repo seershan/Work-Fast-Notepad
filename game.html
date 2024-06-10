@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work Fast Notepad</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Work Fast Notepad</h1>
+            <button id="darkModeToggle">Toggle Dark Mode</button>
+        </header>
+        <main>
+            <button id="boldBtn">B</button>
+<button id="italicBtn">I</button>
+<button id="underlineBtn">U</button>
+
+<button id="undoBtn">Undo</button>
+<button id="redoBtn">Redo</button>
+
+
+            <textarea id="note" placeholder="Write your notes here..."></textarea>
+            <div class="info">
+                <span id="wordCount">Words: 0</span>
+                <span id="letterCount">Letters: 0</span>
+            </div>
+            <div class="date-picker">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date">
+            </div>
+        </main>
+                <footer>
+                    <button id="shareBtn">Share Note</button>
+                    <button id="formatMailBtn">Format for Email</button>
+                    <button id="downloadBtn">Download Note</button>
+                    <button id="copyBtn">Copy Note</button>
+                </footer>
+    </div>
+
+    <div class="credit">
+        <p>Developed by <a href="https://github.com/seershan">Seershan Mitra</a></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
